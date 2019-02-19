@@ -33,6 +33,8 @@ public class HttpHandshakeInterceptor implements HandshakeInterceptor {
                                WebSocketHandler webSocketHandler,
                                Exception e) {
 
+
+        logger.info("afterHandshake method");
     }
 
 
