@@ -15,6 +15,7 @@ public class HttpHandshakeInterceptor implements HandshakeInterceptor {
 
     private static final Logger logger = LoggerFactory.getLogger(HttpHandshakeInterceptor.class);
 
+    //testststststst
     @Override
     public boolean beforeHandshake(ServerHttpRequest request, ServerHttpResponse response, WebSocketHandler webSocketHandler, Map<String, Object> map) throws Exception {
         if (request instanceof ServletServerHttpRequest) {
